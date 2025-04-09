@@ -76,6 +76,8 @@
 }
 
 .card-png {
+  object-fit: cover;
+  object-position: center;
   display: block;
   inline-size: 100%;
 }
@@ -242,31 +244,31 @@
   text-transform: uppercase;
 }
 
-.second-card-effect {
+.saturate-effect {
   filter: saturate(60%);
 }
 
-.third-card-effect {
+.brightness-saturate-effect {
   filter: brightness(150%) saturate(130%);
 }
 
-.fourth-card-effect {
+.opacity-effect {
   filter: opacity(0.3);
 }
 
-.fifth-card-effect {
+.sepia-opacity-effect {
   filter: sepia(65%) opacity(0.4);
 }
 
-.sixth-card-effect {
+.invert-effect {
   filter: invert(75%);
 }
 
-.seventh-card-effect {
+.grayscale-effect {
   filter: grayscale(2);
 }
 
-.eighth-card-effect {
+.blur-grayscale-effect {
   filter: blur(1.5px) grayscale(2);
 }
 
