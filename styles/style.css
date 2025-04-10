@@ -188,11 +188,11 @@
 }
 
 .dialog__svg {
-  width: 39px;
-  height: 39px;
+  width: 40px;
+  height: 40px;
 }
 
-.save-button .floppy__svg {
+.save-button {
   mix-blend-mode: difference;
 }
 
