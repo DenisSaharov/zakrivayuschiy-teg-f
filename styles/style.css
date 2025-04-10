@@ -268,7 +268,7 @@
   filter: grayscale(2);
 }
 
-.blur-grayscale-effect {
+.blur-graysacle-effect {
   filter: blur(1.5px) grayscale(2);
 }
 
