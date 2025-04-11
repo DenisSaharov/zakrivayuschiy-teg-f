@@ -183,13 +183,14 @@
 }
 
 .floppy__svg {
-  width: 23px;
-  height: 23px;
+  width: 21px;
+  height: 21px;
+  filter: invert(1);
+  mix-blend-mode: difference;
 }
 
 .dialog__svg {
-  width: 40px;
-  height: 40px;
+  max-inline-size: 39px;
 }
 
 .save-button {
@@ -293,8 +294,8 @@
   }
 
   .floppy__svg {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
   }
 
   .card__label {
@@ -308,5 +309,3 @@
     -webkit-text-stroke: 1px #fff;
   }
 }
-
-
