@@ -190,7 +190,10 @@
 }
 
 .dialog__svg {
-  max-inline-size: 39px;
+  width: 39px;
+  height: 39px;
+  align-self: center;
+  flex-shrink: 0;
 }
 
 .save-button {
