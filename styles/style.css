@@ -180,6 +180,7 @@
   align-items: center;
   margin: 0 auto;
   gap: 8px;
+  mix-blend-mode: difference;
 }
 
 .floppy__svg {
@@ -194,10 +195,6 @@
   height: 39px;
   align-self: center;
   flex-shrink: 0;
-}
-
-.save-button {
-  mix-blend-mode: difference;
 }
 
 .button__text {
